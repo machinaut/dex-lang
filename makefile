@@ -41,6 +41,8 @@ endif
 # libpng
 ifneq (,$(wildcard /usr/local/include/png.h))
 CFLAGS := $(CFLAGS) -I/usr/local/include
+else
+CFLAGS := $(CFLAGS) $(shell pkg-config --cflags libpng)
 endif
 
 ifneq (,$(PREFIX))
