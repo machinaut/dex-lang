@@ -30,7 +30,6 @@ development. Expect monstrous bugs and razor-sharp edges!**
 ## Dependencies
 
   * Install [stack](https://www.haskellstack.org)
-    * macOS: `brew install haskell-stack ghc`
   * Install LLVM 9
     * Ubuntu/Debian: `apt-get install llvm-9-dev`
     * macOS: `brew install llvm@9`
